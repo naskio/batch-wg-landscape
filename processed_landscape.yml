@@ -1,0 +1,91 @@
+landscape:
+  - category:
+    name: Batch Scheduling
+    subcategories:
+      - subcategory:
+        name: Kubernetes-Core
+        items:
+          - item:
+            name: Kueue
+            homepage_url: https://kueue.sigs.k8s.io/
+            project: null
+            repo_url: https://github.com/kubernetes-sigs/kueue
+            logo: kueue.svg
+            twitter: https://twitter.com/kubernetesio
+            crunchbase: https://www.crunchbase.com/organization/kubernetes
+      - subcategory:
+        name: Kubernetes-Native
+        items:
+          - item:
+            name: Apache Yunikorn
+            homepage_url: https://yunikorn.apache.org/
+            project: null
+            repo_url: https://github.com/apache/yunikorn-core
+            logo: apache-yunikorn.svg
+            twitter: https://twitter.com/TheASF
+            crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: Armada
+            homepage_url: https://armadaproject.io/
+            project: null
+            repo_url: https://github.com/armadaproject/armada
+            logo: armada.svg
+            twitter: https://twitter.com/oss_gr
+            crunchbase: https://www.crunchbase.com/organization/g-research
+          - item:
+            name: Volcano
+            homepage_url: https://volcano.sh/
+            project: null
+            repo_url: https://github.com/volcano-sh/volcano
+            logo: volcano.svg
+            twitter: https://twitter.com/volcano_sh
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+      - subcategory:
+        name: Kubernetes-Adjacent
+        items:
+          - item:
+            name: Fluxion
+            #homepage_url: https://flux-framework.readthedocs.io/projects/flux-sched/
+            homepage_url: https://flux-framework.org/
+            project: null
+            repo_url: https://github.com/flux-framework/flux-sched
+            logo: fluxion.svg
+            twitter: https://twitter.com/FluxFramework
+            crunchbase: https://www.crunchbase.com/organization/lawrence-livermore-national-laboratory
+      - subcategory:
+        name: k8s-connectors # Traditional with a connector to Kubernetes
+        items:
+          - item:
+            #name: Slurm SchedMD
+            name: Slurm
+            homepage_url: https://slurm.schedmd.com/
+            project: null
+            repo_url: https://github.com/SchedMD/slurm
+            logo: slurm.svg
+            twitter: https://twitter.com/SchedMD
+            crunchbase: https://www.crunchbase.com/organization/schedmd-llc
+          - item:
+            name: OpenPBS
+            homepage_url: https://www.openpbs.org/
+            project: null
+            repo_url: https://github.com/openpbs/openpbs
+            logo: openpbs.svg
+            #twitter: https://twitter.com/linuxfoundation
+            #crunchbase: https://www.crunchbase.com/organization/linux-foundation
+            twitter: https://twitter.com/altair_inc
+            crunchbase: https://www.crunchbase.com/organization/altair-engineering
+          - item:
+            name: Singularity
+            homepage_url: https://sylabs.io/
+            repo_url: https://github.com/apptainer/singularity
+            logo: singularity.svg
+            twitter: https://twitter.com/SingularityApp
+            crunchbase: https://www.crunchbase.com/organization/sylabs
+          - item:
+            name: Apptainer
+            homepage_url: https://apptainer.org/
+            project: null
+            repo_url: https://github.com/apptainer/apptainer
+            logo: apptainer.svg
+            twitter: https://twitter.com/SingularityApp
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
