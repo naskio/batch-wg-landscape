@@ -1,0 +1,126 @@
+global:
+  name: CNCF Batch WG Interactive Landscape
+  short_name: CNCF_BATCH_WG
+  repo: naskio/batch-wg-landscape
+  website: https://batch-wg.cncf.io
+  short_domain: bwg.cncf.io
+  company_url: https://www.cncf.io
+  email: info@cncf.io
+  self: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
+  meta:
+    title: CNCF Batch WG Interactive Landscape
+    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
+    twitter: '@CloudNativeFdn'
+  membership: Batch Scheduling # same as category in landscape.yml
+  hide_best_practices: true
+  flags:
+    hide_license_for_categories:
+      - CNCF Members
+twitter:
+  search: batch-wg.cncf.io
+  url: https://batch-wg.cncf.io
+  text: CNCF Batch WG Interactive Landscape
+relation:
+  label: CNCF Relation
+  url: cncf
+  values:
+    - id: hosted
+      label: CNCF Projects
+      children:
+        - id: graduated
+          label: CNCF Graduated Projects
+          prefix: CNCF
+          tag: Graduated Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: CNCF Graduated
+          big_picture_color: rgb(24,54,114)
+        - id: incubating
+          label: CNCF Incubating Projects
+          prefix: CNCF
+          tag: Incubating Project
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: CNCF Incubating
+          big_picture_color: rgb(83, 113, 189)
+        - id: sandbox
+          label: CNCF Sandbox Projects
+          prefix: CNCF
+          tag: Sandbox Project
+          color: '#d1f7ff'
+          big_picture_label: CNCF Sandbox
+          big_picture_color: rgb(108, 165, 209)
+        #          additional_relation: member
+        - id: archived
+          label: Archived CNCF Projects
+          prefix: CNCF
+          tag: Archived Project
+          color: '#d3d3d3'
+          big_picture_label: CNCF Archived
+          big_picture_color: rgb(211, 211, 211)
+    #          additional_relation: member
+    - id: member
+      label: CNCF Member Products/Projects
+      tag: CNCF Member
+    - id: false
+      label: Non-CNCF Member Products/Projects
+      url: 'no'
+membership: # all subcategories from landscape.yml should be here
+  Kubernetes-Core:
+    name: BATCH_WG
+    label: Kubernetes-Core
+    funding: 'No'
+    is_large: true
+  Kubernetes-Native:
+    name: BATCH_WG
+    label: Kubernetes-Native
+    funding: 'No'
+    is_large: true
+  Kubernetes-Adjacent:
+    name: BATCH_WG
+    label: Kubernetes-Adjacent
+    funding: 'No'
+    is_large: true
+  k8s-connectors:
+    name: BATCH_WG
+    label: k8s-connectors
+    funding: 'No'
+    is_large: true
+  'false':
+    funding: 'No'
+    is_large: true
+home:
+  header: >
+    <h1>CNCF Batch WG Interactive Landscape</h1> The CNCF Batch WG landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is dynamically generated below.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+big_picture:
+  main:
+    fullscreen_hide_grey_logos: true
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    title: CNCF Batch WG Interactive Landscape
+    fullscreen_header: See the interactive landscape at bwg.cncf.io
+    size:
+      width: 1020
+      height: 840
+    fullscreen_size:
+      width: 1020
+      height: 840
+    elements:
+      - type: HorizontalCategory
+        category: Batch Scheduling
+        rows: 1
+        width: 480
+        height: 240
+        top: 0
+        left: 0
+        color: rgb(0,181,226)
+        fit_width: true
+test:
+  header: CNCF Batch WG Interactive Landscape
+  section: CNCF Batch WG Active Projects
+  logo: cla-bot.svg
